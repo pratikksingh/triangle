@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+      <div id="app">
+          <nav class="navbar">
+            <h2>
+              <a class="a" href="./index.html">Fun with triangles</a>
+            </h2>
+            <ul class="nav-items">
+                <a class="item-link" href="./isTriangle.html"
+                  ><li class="item">Is triangle?</li></a
+                >
+      
+                <a class="item-link" href="./Quiz.html"><li class="item">Quiz</li></a>
+      
+                <a class="item-link" href="./Hypotenuse.html"
+                  ><li class="item">Hypotenuse</li></a
+                >
+      
+                <a class="item-link" href="./AreaOfTriangle.html"
+                  ><li class="item">Area of triangle</li></a
+                >
+              </ul>
+          </nav>
+        </div>
+        <form class="divComman" onsubmit="return false;" required>
+          <h1 class="heading-top">Hypotenuse</h1>
+            <label for="sideA">Side A:</label>
+            <input required placeholder="Enter here..." type="number" id="sideA" class="sideA"></input>
+  
+            <label for="sideB">Side B:</label>
+            <input required placeholder="Enter here..." type="number" id="sideB" class="sideB"></input>
+            
+            <button value="btn" id="check">Check</button>
+            <div id="output"></div>
+            <!-- <textarea  disabled id="output"></textarea> -->
+          </form>
+
+    <script src="src/hypotenuse.js"></script>
+  </body>
+</html>

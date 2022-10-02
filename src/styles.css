@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  background-color: #87a8e4;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #225cc9;
+  padding: 1rem;
+  /* margin: 1rem; */
+  margin-top: 0;
+  box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+
+  border-radius: 0 0 10px 10px;
+}
+
+h2 {
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  /* font-size: 1rem; */
+  cursor: pointer;
+}
+.heading {
+  color: white;
+}
+
+.heading-top {
+  font-size: 3rem;
+  color: lavender;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+  list-style-type: none;
+  margin: 1rem;
+}
+.item {
+  margin-left: auto;
+  margin-right: 1rem;
+  background-color: lavender;
+  padding: 15px;
+  border-radius: 1rem;
+  width: 110px;
+  align-items: center;
+
+  text-align: center;
+}
+.item:hover {
+  cursor: pointer;
+
+  box-shadow: rgba(215, 217, 231, 0.904) 0px 0px 10px;
+}
+
+.divComman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.item-link {
+  color: black;
+}
+
+input {
+  margin: 1rem;
+  padding: 1rem;
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  margin: 1rem;
+  border: none;
+  width: 10%;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+button,
+#home-page-btn:hover {
+  box-shadow: rgba(215, 217, 231, 0.904) 0px 0px 10px;
+}
+
+#output {
+  width: 20%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  /* background-color: white; */
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+label {
+  color: black;
+  /* margin-top: 1rem; */
+  font-weight: bold;
+}
+.label {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.home-page {
+  margin-top: 10rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: lavender;
+}
+.home-page-btn {
+  /* margin: 2rem; */
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 30px;
+  width: 15rem;
+  font-size: 2rem;
+}
+.questions {
+  font-size: 1.5rem;
+}
+
+.options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+.quiz-heading {
+  /* font-weight: bold; */
+  font-size: 20px;
+  text-align: center;
+}
