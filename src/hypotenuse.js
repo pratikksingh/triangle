@@ -4,7 +4,7 @@ const btn = document.getElementById("check");
 const output = document.getElementById("output");
 
 function clickHandler() {
-  if (sideA.value && sideB.value) {
+  if (sideA.value > 0 && sideB.value > 0) {
     output.innerHTML =
       "The length of the hypotenuse is " +
       Math.round(
@@ -13,7 +13,7 @@ function clickHandler() {
         10 +
       " cm";
   } else {
-    return;
+    output.innerHTML = "The length of sides cannot be 0 ";
   }
 }
 
