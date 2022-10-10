@@ -4,13 +4,13 @@ const btn = document.getElementById("check");
 const output = document.getElementById("output");
 
 function clickHandler() {
-  if (base.value && height.value) {
+  if (parseInt(base.value) > 0 && parseInt(height.value) > 0) {
     output.innerHTML =
       "The area of given triangle is " +
       Math.round((1 / 2) * (base.value * height.value) * 10) / 10 +
       " cm²";
   } else {
-    return;
+    output.innerHTML = "Base and height can neither be negative nor be zero";
   }
 }
 
