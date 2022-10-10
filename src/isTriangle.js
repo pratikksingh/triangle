@@ -11,9 +11,12 @@ const clickHandlerCheck = () => {
   if (
     parseInt(angle1.value) < 0 ||
     parseInt(angle2.value) < 0 ||
-    parseInt(angle3.value) < 0
+    parseInt(angle3.value) < 0 ||
+    parseInt(angle1.value) === 0 ||
+    parseInt(angle2.value) === 0 ||
+    parseInt(angle3.value) === 0
   ) {
-    output.innerHTML = "Angles cannot be negative";
+    output.innerHTML = "Angles cannot be negative nor can be zero";
   } else if (
     parseInt(angle1.value) + parseInt(angle2.value) + parseInt(angle3.value) ===
       180 &&
